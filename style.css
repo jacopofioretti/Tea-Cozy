@@ -1,3 +1,12 @@
-.logo {
+.container {
+    background-color: black;
+    height: 69px;
+    justify-content: flex-start;
+    display: flex;
+}
 
+.logo {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
 }
