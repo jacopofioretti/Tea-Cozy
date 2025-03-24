@@ -1,12 +1,55 @@
-.container {
+body {
+    margin: 0;
+    padding: 0;
     background-color: black;
-    height: 69px;
-    justify-content: flex-start;
+    color: seashell;
+    font-family: Arial, sans-serif;
+}
+.container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; 
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    font-size: 22px;
+    color: seashell; 
 }
 
 .logo {
-    height: 50px;
-    width: auto;
-    padding-left: 10px;
+    max-width: 100px;
+    height: auto; 
+    padding-right: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: underline;
+    color: seashell;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.h2 {
+    position: relative;
 }
