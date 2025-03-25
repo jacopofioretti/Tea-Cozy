@@ -65,7 +65,7 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 1); /* Sfondo nero semi-trasparente */
     padding: 2px, 10px;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .text-overlay h2 {
