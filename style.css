@@ -47,9 +47,27 @@ body {
 }
 
 .main {
-    padding: 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
 .h2 {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: seashell;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+.mission-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 0;
 }
