@@ -72,6 +72,7 @@ body {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
+    padding-top: 10px;
 }
 
 .text-overlay h4 {
@@ -90,7 +91,32 @@ body {
     z-index: 0;
 }
 
-.featured-tea-image {
-    width: 300px;
-    height: 200px;
+.featured-tea {
+    text-align: center;
+    margin-bottom: 20px; /* Spazio tra il titolo e le immagini */
+}
+
+.berry-image {
+    width: 100%; /* L'immagine si adatta al contenitore */
+    max-width: 300px; /* Limita la larghezza massima */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 10px; /* Arrotonda gli angoli */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Aggiunge un'ombra */
+}
+
+.center {
+    text-align: center; /* Centra il titolo */
+    margin-bottom: 20px; /* Spazio sotto il titolo */
+    display: grid; /* Usa il layout Grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 colonne di uguale larghezza */
+    gap: 20px; /* Spaziatura tra gli elementi */
+    width: 100%; /* L'immagine si adatta al contenitore */
+    max-width: 300px; /* Limita la larghezza massima */
+    height: auto; /* Mantiene le proporzioni */
+}
+
+.h3 {
+    margin-top: 10px; /* Spazio tra l'immagine e il titolo */
+    font-size: 18px;
+    color: seashell;
 }
