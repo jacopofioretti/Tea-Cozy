@@ -115,4 +115,23 @@ body {
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    max-width: 1000px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.location {
+    position: relative;
+    text-align: center;
+
+}
+
+.location-image {
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    position: center;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
