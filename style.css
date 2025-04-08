@@ -123,7 +123,6 @@ body {
 .location {
     position: relative;
     text-align: center;
-
 }
 
 .location-image {
@@ -134,4 +133,23 @@ body {
     top: 0;
     left: 0;
     z-index: 0;
+}
+
+.text-overlay2 {
+    position: top;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: seashell;
+    text-align: center;
+    padding: 2px, 10px;
+    width: 1200px;
+}
+
+.text-overlay2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 10px;
 }
