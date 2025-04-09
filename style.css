@@ -127,7 +127,7 @@ body {
 
 .location-image {
     width: 1200px;
-    height: 500px;
+    height: 700px;
     object-fit: cover;
     position: center;
     top: 0;
@@ -135,9 +135,32 @@ body {
     z-index: 0;
 }
 
-.text-overlay2 {
-    position: top;
+.location-collage {
+    position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    z-index: 1;
+}
+
+.location-collage > div {
+    background-color: black;
+    color: seashell; 
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-overlay2 {
+    position: absolute;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -152,4 +175,5 @@ body {
     font-weight: bold;
     margin: 0;
     padding-top: 10px;
+    justify-content: center;
 }
